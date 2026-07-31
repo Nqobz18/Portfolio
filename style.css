@@ -455,6 +455,104 @@ SKILLS
     background:#fff;
     color:#0284c7;
 }
+
+/*==================== CERTIFICATIONS ====================*/
+
+.certifications{
+    background: var(--second-bg-color);
+}
+
+.certifications-container{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+    gap:30px;
+    margin-top:50px;
+}
+
+.certificate-box{
+    background:#e0f2fe;
+    padding:35px;
+    border-radius:20px;
+    text-align:center;
+    transition:.4s;
+    box-shadow:0 10px 20px rgba(56,189,248,.2);
+}
+
+.certificate-box:hover{
+    transform:translateY(-10px);
+    background:#38bdf8;
+}
+
+.certificate-icon{
+    font-size:70px;
+    color:#0284c7;
+    margin-bottom:20px;
+    transition:.4s;
+}
+
+.certificate-box:hover .certificate-icon{
+    color:#fff;
+    transform:scale(1.1);
+}
+
+.certificate-box h3{
+    font-size:2.2rem;
+    margin-bottom:15px;
+    color:#0f172a;
+}
+
+.certificate-box:hover h3{
+    color:#fff;
+}
+
+.certificate-box p{
+    font-size:1.6rem;
+    line-height:1.7;
+    color:#334155;
+}
+
+.certificate-box:hover p{
+    color:#fff;
+}
+
+.issuer{
+    display:inline-block;
+    margin-top:20px;
+    padding:8px 18px;
+    background:#0284c7;
+    color:#fff;
+    border-radius:30px;
+    font-size:1.4rem;
+    font-weight:600;
+}
+
+.certificate-box:hover .issuer{
+    background:#fff;
+    color:#0284c7;
+}
+
+/*==================== BUTTON ====================*/
+
+.certificates-button{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top:50px;
+    width:100%;
+}
+
+.certificates-button .btn{
+    display:inline-flex;
+    justify-content:center;
+    align-items:center;
+    gap:10px;
+    padding:15px 40px;
+    font-size:1.8rem;
+}
+
+.certificates-button .btn i{
+    font-size:1.8rem;
+}
 /*==================== CONTACT ====================*/
 
 .contact{
